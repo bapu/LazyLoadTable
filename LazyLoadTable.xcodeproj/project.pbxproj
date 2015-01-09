@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91BD0AC11A6068C800B8465E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BD0AC01A6068C800B8465E /* AppDelegate.swift */; };
+		91BD0AC61A6068C800B8465E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91BD0AC41A6068C800B8465E /* Main.storyboard */; };
+		91BD0AC81A6068C800B8465E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91BD0AC71A6068C800B8465E /* Images.xcassets */; };
+		91BD0ACB1A6068C800B8465E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91BD0AC91A6068C800B8465E /* LaunchScreen.xib */; };
+		91BD0AD71A6068C800B8465E /* LazyLoadTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BD0AD61A6068C800B8465E /* LazyLoadTableTests.swift */; };
+		91BD0AE11A60692A00B8465E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BD0AE01A60692A00B8465E /* TableViewController.swift */; };
+		91BD0AE31A60694400B8465E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BD0AE21A60694400B8465E /* TableViewCell.swift */; };
+		91BD0AE61A606CD700B8465E /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 91BD0AE41A606CD700B8465E /* test.json */; };
+		91BD0AE71A606CD700B8465E /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91BD0AE51A606CD700B8465E /* TemplateIcon2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91BD0AD11A6068C800B8465E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91BD0AB31A6068C800B8465E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BD0ABA1A6068C800B8465E;
+			remoteInfo = LazyLoadTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91BD0ABB1A6068C800B8465E /* LazyLoadTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LazyLoadTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BD0ABF1A6068C800B8465E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BD0AC01A6068C800B8465E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91BD0AC51A6068C800B8465E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91BD0AC71A6068C800B8465E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91BD0ACA1A6068C800B8465E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		91BD0AD01A6068C800B8465E /* LazyLoadTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LazyLoadTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BD0AD51A6068C800B8465E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91BD0AD61A6068C800B8465E /* LazyLoadTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadTableTests.swift; sourceTree = "<group>"; };
+		91BD0AE01A60692A00B8465E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		91BD0AE21A60694400B8465E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		91BD0AE41A606CD700B8465E /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		91BD0AE51A606CD700B8465E /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91BD0AB81A6068C800B8465E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91BD0ACD1A6068C800B8465E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91BD0AB21A6068C800B8465E = {
+			isa = PBXGroup;
+			children = (
+				91BD0ABD1A6068C800B8465E /* LazyLoadTable */,
+				91BD0AD31A6068C800B8465E /* LazyLoadTableTests */,
+				91BD0ABC1A6068C800B8465E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91BD0ABC1A6068C800B8465E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91BD0ABB1A6068C800B8465E /* LazyLoadTable.app */,
+				91BD0AD01A6068C800B8465E /* LazyLoadTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91BD0ABD1A6068C800B8465E /* LazyLoadTable */ = {
+			isa = PBXGroup;
+			children = (
+				91BD0AC01A6068C800B8465E /* AppDelegate.swift */,
+				91BD0AC41A6068C800B8465E /* Main.storyboard */,
+				91BD0AC71A6068C800B8465E /* Images.xcassets */,
+				91BD0AC91A6068C800B8465E /* LaunchScreen.xib */,
+				91BD0ABE1A6068C800B8465E /* Supporting Files */,
+				91BD0AE01A60692A00B8465E /* TableViewController.swift */,
+				91BD0AE21A60694400B8465E /* TableViewCell.swift */,
+				91BD0AE41A606CD700B8465E /* test.json */,
+				91BD0AE51A606CD700B8465E /* TemplateIcon2x.png */,
+			);
+			path = LazyLoadTable;
+			sourceTree = "<group>";
+		};
+		91BD0ABE1A6068C800B8465E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91BD0ABF1A6068C800B8465E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91BD0AD31A6068C800B8465E /* LazyLoadTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				91BD0AD61A6068C800B8465E /* LazyLoadTableTests.swift */,
+				91BD0AD41A6068C800B8465E /* Supporting Files */,
+			);
+			path = LazyLoadTableTests;
+			sourceTree = "<group>";
+		};
+		91BD0AD41A6068C800B8465E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91BD0AD51A6068C800B8465E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91BD0ABA1A6068C800B8465E /* LazyLoadTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91BD0ADA1A6068C800B8465E /* Build configuration list for PBXNativeTarget "LazyLoadTable" */;
+			buildPhases = (
+				91BD0AB71A6068C800B8465E /* Sources */,
+				91BD0AB81A6068C800B8465E /* Frameworks */,
+				91BD0AB91A6068C800B8465E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyLoadTable;
+			productName = LazyLoadTable;
+			productReference = 91BD0ABB1A6068C800B8465E /* LazyLoadTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91BD0ACF1A6068C800B8465E /* LazyLoadTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91BD0ADD1A6068C800B8465E /* Build configuration list for PBXNativeTarget "LazyLoadTableTests" */;
+			buildPhases = (
+				91BD0ACC1A6068C800B8465E /* Sources */,
+				91BD0ACD1A6068C800B8465E /* Frameworks */,
+				91BD0ACE1A6068C800B8465E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91BD0AD21A6068C800B8465E /* PBXTargetDependency */,
+			);
+			name = LazyLoadTableTests;
+			productName = LazyLoadTableTests;
+			productReference = 91BD0AD01A6068C800B8465E /* LazyLoadTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91BD0AB31A6068C800B8465E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Baidyanath;
+				TargetAttributes = {
+					91BD0ABA1A6068C800B8465E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					91BD0ACF1A6068C800B8465E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 91BD0ABA1A6068C800B8465E;
+					};
+				};
+			};
+			buildConfigurationList = 91BD0AB61A6068C800B8465E /* Build configuration list for PBXProject "LazyLoadTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91BD0AB21A6068C800B8465E;
+			productRefGroup = 91BD0ABC1A6068C800B8465E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91BD0ABA1A6068C800B8465E /* LazyLoadTable */,
+				91BD0ACF1A6068C800B8465E /* LazyLoadTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91BD0AB91A6068C800B8465E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BD0AE71A606CD700B8465E /* TemplateIcon2x.png in Resources */,
+				91BD0AC61A6068C800B8465E /* Main.storyboard in Resources */,
+				91BD0AE61A606CD700B8465E /* test.json in Resources */,
+				91BD0ACB1A6068C800B8465E /* LaunchScreen.xib in Resources */,
+				91BD0AC81A6068C800B8465E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91BD0ACE1A6068C800B8465E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91BD0AB71A6068C800B8465E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BD0AE31A60694400B8465E /* TableViewCell.swift in Sources */,
+				91BD0AE11A60692A00B8465E /* TableViewController.swift in Sources */,
+				91BD0AC11A6068C800B8465E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91BD0ACC1A6068C800B8465E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91BD0AD71A6068C800B8465E /* LazyLoadTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91BD0AD21A6068C800B8465E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91BD0ABA1A6068C800B8465E /* LazyLoadTable */;
+			targetProxy = 91BD0AD11A6068C800B8465E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91BD0AC41A6068C800B8465E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91BD0AC51A6068C800B8465E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91BD0AC91A6068C800B8465E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91BD0ACA1A6068C800B8465E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91BD0AD81A6068C800B8465E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91BD0AD91A6068C800B8465E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91BD0ADB1A6068C800B8465E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LazyLoadTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91BD0ADC1A6068C800B8465E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LazyLoadTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91BD0ADE1A6068C800B8465E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LazyLoadTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyLoadTable.app/LazyLoadTable";
+			};
+			name = Debug;
+		};
+		91BD0ADF1A6068C800B8465E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LazyLoadTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LazyLoadTable.app/LazyLoadTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91BD0AB61A6068C800B8465E /* Build configuration list for PBXProject "LazyLoadTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BD0AD81A6068C800B8465E /* Debug */,
+				91BD0AD91A6068C800B8465E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91BD0ADA1A6068C800B8465E /* Build configuration list for PBXNativeTarget "LazyLoadTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BD0ADB1A6068C800B8465E /* Debug */,
+				91BD0ADC1A6068C800B8465E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91BD0ADD1A6068C800B8465E /* Build configuration list for PBXNativeTarget "LazyLoadTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BD0ADE1A6068C800B8465E /* Debug */,
+				91BD0ADF1A6068C800B8465E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91BD0AB31A6068C800B8465E /* Project object */;
+}
